@@ -122,7 +122,7 @@ html body .hero .io.d1{animation-delay:120ms}html body .hero .io.d2{animation-de
 
 /* Hero : occupe exactement l'écran (hauteur fenêtre − barre de nav) */
 .hero{background:#FFFFFF;height:calc(min(var(--vhpx, 900px), 1300px) - 76px);min-height:640px}
-.hero-copy{padding-bottom:100px;position:relative;z-index:25}
+.hero-copy{padding-top:40px;padding-bottom:100px;position:relative;z-index:25}
 .hero-tag{margin:24px 0 0;font-size:72px;line-height:1.08;font-weight:700;letter-spacing:-.03em;color:#163D72}
 .hero-emblem{position:absolute;left:calc(50% - (min(100%, 1240px) - 96px) * .22);top:52%;width:min(760px,90vw);height:min(760px,90vw);transform:translate(-50%,-50%);pointer-events:none;opacity:.07;z-index:0}
 
@@ -149,7 +149,7 @@ html body .hero .io.d1{animation-delay:120ms}html body .hero .io.d2{animation-de
 @keyframes wave{0%,100%{transform:rotate(0deg)}50%{transform:rotate(2.5deg)}}
 .hero-bar{position:absolute;left:0;right:0;bottom:24px;display:flex;justify-content:center;align-items:flex-end;gap:24px;padding:0 48px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#404040;z-index:26}
 .hero-scroll-cue{display:flex;flex-direction:column;align-items:center;gap:12px;font-size:10px;letter-spacing:.24em}
-.hero-scroll-cue i{display:block;width:1.5px;height:44px;background:#163D72;transform-origin:top;animation:cue 2s ease-in-out infinite}
+.hero-scroll-cue i{display:block;width:1.5px;height:22px;background:#163D72;transform-origin:top;animation:cue 2s ease-in-out infinite}
 @keyframes cue{0%{transform:scaleY(0)}50%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
 
 /* Simulateur d'alerte */
